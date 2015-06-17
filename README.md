@@ -33,6 +33,12 @@ pod "SuperID"
 * Login - http://superid.me/document/iOS_f.html
 * Face Attributes - http://superid.me/document/iOS_a.html
 
+##Sample
+You can download iOS sample for SuperID SDK here:
+
+***iOS Sample:*** https://github.com/SuperID/superid-ios-sample
+
+
 ##Give Feedback
 
 **Support:**  support@superid.me
