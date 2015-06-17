@@ -28,18 +28,18 @@ pod "SuperID"
 ```
 
 
-##FEATURES
+##Features
 
 * Login - http://superid.me/document/iOS_f.html
 * Face Attributes - http://superid.me/document/iOS_a.html
 
-##GIVE FEEDBACK
+##Give Feedback
 
 **Support:**  support@superid.me
 
 **Business:** contact@superid.me
 
-##ABOUT US
+##About us
 
 We are [ISNCer](http://superid.me/team/index.html)
 
