@@ -1,4 +1,4 @@
-## SuperID SDK - A unique face openID
+## SuperID - A unique face openID
 
 
 [![Version](https://img.shields.io/cocoapods/v/SuperID.svg?style=flat)](http://cocoapods.org/pods/SuperID)
