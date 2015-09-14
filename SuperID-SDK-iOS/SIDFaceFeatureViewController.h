@@ -31,6 +31,7 @@
  */
 - (void)startDetectFaceFeature;
 
+- (void)startDetectAdvancedFaceFeature;
 
 /**
  *  结束人脸信息识别

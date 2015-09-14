@@ -16,7 +16,7 @@
 
 
 /** SDK 委托对象 */
-@property(assign,nonatomic) id<SuperIDDelegate> delegate;
+@property(weak,nonatomic) id<SuperIDDelegate> delegate;
 
 
 
@@ -26,13 +26,6 @@
  *  @return SuperID单例对象
  */
 + (SuperID *)sharedInstance;
-
-
-
-/**
- *  SuperID的类方法，用于获取当前SDK的版本信息
- */
-+ (NSDictionary *)getSDKVersion;
 
 
 
@@ -47,7 +40,10 @@
 - (void)registerAppWithAppID:(NSString *)appID withAppSecret:(NSString *)appSecret;
 
 
-
+/**
+ *  SuperID的类方法，用于获取当前SDK的版本信息
+ */
++ (NSDictionary *)getSDKVersion;
 /**
  *  SuperID的类方法，用于设置SDK在开发者应用中的语言模式，分自动模式、英文模式、简体中文模式、繁体中文模式。
  *
@@ -93,6 +89,12 @@
  */
 - (void)queryCurrentUserAuthorizationStateWithUid:(NSString *)uid;
 
+/**
+ *  SuperID的实例方法，查询当前用户OpenID的授权状态
+ *  查询结果可通过实现SuperID的协议方法获取。
+ *  @param openId 查询OpenID授权状态
+ */
+- (void)queryCurrentUserAuthorizationStateWithOpenId:(NSString *)openId;
 
 /**
  *  SuperID的实例方法，获取一登授权VC.开发者使用present/show方法调用Super的授权界面
@@ -170,6 +172,9 @@
 - (void)uploadUserBehaviourEventDataWithActionTag:(NSString *)aTag attributes:(NSDictionary *)attributes actions:(NSDictionary *)actions;
 
 
-
+/**
+ *  一登SDK缓存清除接口，用于开发者调试阶段复位SDK状态
+ */
++ (void)clearCache;
 
 @end

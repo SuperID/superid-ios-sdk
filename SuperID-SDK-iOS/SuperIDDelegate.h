@@ -107,12 +107,10 @@ typedef NS_ENUM(NSInteger, SIDUpdateAccountState){
  *  应用用户使用SuperID登录应用操作完成调用的协议方法，开发者可通过继承该协议方法获取用户信息。
  *
  *  @param userInfo 当前一登用户的账户信息
- *  @param uid      与一登账号绑定的用户Uid，如三方开发者未更新Uid或绑定时传入，默认为随机Uid
+ *  @param OpenID   与一登账号绑定的用户OpenID，使用旧版本的开发者如需要可变Uid，可在userInfo字典中获取
  *  @param error    登录成功为nil，登录失败不为nil。开发者可根据该错误信息描述进行对应处理，详见开发者文档和Demo
  */
-- (void)superID:(SuperID *)sender userDidFinishLoginWithUserInfo:(NSDictionary *)userInfo withAppUid:(NSString *)uid error:(NSError *)error;
-
-
+- (void)superID:(SuperID *)sender userDidFinishLoginWithUserInfo:(NSDictionary *)userInfo withOpenId:(NSString *)openId error:(NSError *)error;
 
 /**
  *  应用用户使用SuperID授权应用操作完成的协议方法
@@ -145,7 +143,7 @@ typedef NS_ENUM(NSInteger, SIDUpdateAccountState){
 
 
 /**
- *  查询用户与一登账号授权关联状态的协议方法
+ *  查询用户与一登账号授权关联状态的协议方法（查询uid或者OpenID都用该接口进行回调）
  *
  *  @param state  SIDUserAuthorizationState的类型参数，用于状态进行定位
  */
@@ -166,7 +164,6 @@ typedef NS_ENUM(NSInteger, SIDUpdateAccountState){
  *  @param state SIDUserUpdateResponseState类型参数，用户状态定位
  */
 - (void)superID:(SuperID *)sender updateAppUidResponse:(SIDUserUpdateResponseState)state;
-
 
 
 @end
