@@ -22,6 +22,7 @@
     "SuperID-SDK-iOS/"
   ],
   "preserve_paths": "SuperID-SDK-iOS/*.a",
+  "resources": "SuperID-SDK-iOS/SuperIDSDKSettings.bundle",
   "frameworks": [
    	"Foundation",
     "AVFoundation",
