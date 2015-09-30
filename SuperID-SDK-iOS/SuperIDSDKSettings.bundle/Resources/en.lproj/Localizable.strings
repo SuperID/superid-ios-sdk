@@ -17,7 +17,7 @@
 "Superid_Action_Back" = "Back";
 "Superid_Tips_PicNotExist" = "Picture not existed";
 "Superid_Action_Clip" = "cropped";
-"Superid_Title_Editinfo" = "Edit";
+"Superid_Title_Editinfo" = "My Superid";
 "Superid_Action_TakeFromAlbum" = "Photo Library";
 "Superid_Action_TakePic" = "From Camera";
 "Superid_Action_Cancel" = "Cancel";
@@ -80,6 +80,8 @@
 "Superid_Tips_NoCamPermit_Text" = "To access the camera,please go to Settings > Privacy > Camera, and turn the %@ switch to ON";
 "Superid_Action_NoCamPermit" = "Close";
 "Superid_Action_SrvitemDone" = "Close";
+
+
 "Superid_Tips_TextOverLimit" = "The input text over limit";
 "Superid_Tips_NoFace" = "Please look at the screen";
 
@@ -109,6 +111,7 @@
 "Superid_Tips_SecureEmailTextTips" = "Cannot change once set up";
 "Superid_Aciton_AuthRevise" = "Check your authorization";
 "Superid_Tips_NightMode" = "Double click to highlight";
+"Superid_Tips_AvatarNull" = "Set avatar first";
 
 "Superid_Tips_GuideRegisterEr" = "Login failed, please keep positive face pose and try again.";
 "Superid_Tips_GuideRegisterBundle" = "You have failed to login over 2 times. you can try to record your face again  in bright lighting conditions.";
@@ -123,3 +126,12 @@
 "Superid_Aciton_KeyboardBarSubmit" = "Submit";
 
 "Superid_Aciton_KeyboardBarReturn" = "Next";
+
+"Superid_Title_StrictVerify" = "Superid";
+"Superid_Tips_StrictVerifyText" = "Please verify your phone number in new device";
+"Superid_Action_StrictVerifyAbandon" = "Quit";
+"Superid_Tips_StrictVerifyAbandonAlert" = "Give up the operation and quit?";
+"Superid_Aciton_Yes" = "Yes";
+"Superid_Aciton_No" = "No";
+"Superid_Title_StrictVerifysuccess" = "Success";
+"Superid_Title_StrictVerifyfail" = "Fail";

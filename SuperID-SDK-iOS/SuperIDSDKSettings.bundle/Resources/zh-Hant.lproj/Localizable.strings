@@ -17,7 +17,7 @@
 "Superid_Action_Back" = "返回";
 "Superid_Tips_PicNotExist" = "圖片不存在";
 "Superid_Action_Clip" = "裁剪";
-"Superid_Title_Editinfo" = "填寫個人信息";
+"Superid_Title_Editinfo" = "我的Superid賬號";
 "Superid_Action_TakeFromAlbum" = "從手機相冊選擇";
 "Superid_Action_TakePic" = "拍照";
 "Superid_Action_Cancel" = "取消";
@@ -55,13 +55,21 @@
 "Superid_Tips_AuthTips" = "訪問您的注冊信息：頭像、昵稱。";
 "Superid_Action_MakeSureAuth" = "確定登入";
 "Superid_Tips_NickName" = "昵稱";
-"Superid_Action_Save" = "保存";
+"Superid_Action_Save" = "保存到Superid";
 "Superid_Action_AgreeItem" = "我同意SuperID服務協議";
 "Superid_Tips_GuideError" = "您的人臉與此號碼不匹配，請檢查號碼是否有誤；如環境昏暗，刷臉時可雙擊屏幕開啓加亮模式";
 "Superid_Action_ChangePhone" = "切換賬號";
 "Superid_Action_ReScan" = "重刷壹次";
 "Superid_Tips_GuideErthree" = "您已多次登入失敗，請留意當前的光線情況";
 "Superid_Action_ReBundleFace" = "重綁人臉";
+//
+//  SIDLocalizeable(繁体中文)
+//  SuperIDSDK
+//  CommonVersion
+//  Created by XU JUNJIE on 24/9/15.
+//  Copyright (c) 2015 ISNC. All rights reserved.
+//
+
 "Superid_Action_Exit" = "退出刷臉";
 "Superid_Title_Welcome" = "歡迎使用SuperID";
 "Superid_Tips_GuideStart" = "請您面對手機，保持正臉姿勢，點擊開始刷臉";
@@ -100,7 +108,7 @@
 "Superid_Aciton_CloseView" = "關閉窗口";
 "Superid_Aciton_Close" = "關閉";
 "Superid_Aciton_NotReceivedEmail" = "沒有收到郵件？";
-"Superid_Aciton_Submit" = "提交";
+"Superid_Aciton_Submit" = "綁定郵箱";
 "Superid_Tips_AccountHasBeenFrozen" = "當前帳號已被凍結";
 "Superid_Aciton_ReSubmit" = "重新提交";
 "Superid_Tips_SecureEmailTextTips" = "安全郵箱設置後不能修改";
@@ -127,3 +135,12 @@
 "Superid_Aciton_KeyboardBarSubmit" = "確定";
 
 "Superid_Aciton_KeyboardBarReturn" = "下壹項";
+
+"Superid_Title_StrictVerify" = "驗證手機";
+"Superid_Tips_StrictVerifyText" = "在新設備登入，需要驗證手機";
+"Superid_Action_StrictVerifyAbandon" = "放弃";
+"Superid_Tips_StrictVerifyAbandonAlert" = "是否放弃驗證，並退出";
+"Superid_Aciton_Yes" = "是";
+"Superid_Aciton_No" = "否";
+"Superid_Title_StrictVerifysuccess" = "驗證成功";
+"Superid_Title_StrictVerifyfail" = "驗證失敗";

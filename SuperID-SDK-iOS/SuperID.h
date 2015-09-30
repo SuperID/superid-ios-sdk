@@ -76,25 +76,22 @@
  *  用户登录操作结果可通过实现SuperID的协议方法获取。
  *  @param phoneNumber 当前用户的手机号码，当开发者在用户登录应用时已知用户手机号码情况下调用该接口。
  *  @param error       主调用方传入NSError的指针的指针，来获取错误信息。开发者可根据错误描述判断错误情况。
- *
+ *  @param userInfo    当前用户的应用账号信息，传入后可加快授权绑定过程。具体用法参考开发文档。如无，可置为nil。
  *  @return SuperID登录VC的实例
  */
-- (instancetype)obtainLoginViewControllerWithPhoneNumber:(NSString *)phoneNumber error:(NSError **)error;
+- (instancetype)obtainLoginViewControllerWithPhoneNumber:(NSString *)phoneNumber appUserInfo:(NSDictionary *)userInfo error:(NSError **)error;
+
+
 
 
 /**
  *  SuperID的实例方法，查询当前用户Uid的授权状态
  *  查询结果可通过实现SuperID的协议方法获取。
- *  @param uid 开发者应用中用户的Uid
- */
-- (void)queryCurrentUserAuthorizationStateWithUid:(NSString *)uid;
-
-/**
- *  SuperID的实例方法，查询当前用户OpenID的授权状态
- *  查询结果可通过实现SuperID的协议方法获取。
- *  @param openId 查询OpenID授权状态
+ *  @param OpenID 开发者应用中用户的openId
  */
 - (void)queryCurrentUserAuthorizationStateWithOpenId:(NSString *)openId;
+
+
 
 /**
  *  SuperID的实例方法，获取一登授权VC.开发者使用present/show方法调用Super的授权界面
@@ -118,6 +115,8 @@
  *  @return 一登人脸信息VC的实例
  */
 - (instancetype)obtainFaceFeatureViewControllerWithError:(NSError **)error;
+
+
 
 
 /**
@@ -172,9 +171,17 @@
 - (void)uploadUserBehaviourEventDataWithActionTag:(NSString *)aTag attributes:(NSDictionary *)attributes actions:(NSDictionary *)actions;
 
 
+
 /**
- *  一登SDK缓存清除接口，用于开发者调试阶段复位SDK状态
+ *  SuperID的实例方法，查询当前用户Uid的授权状态
+ *  查询结果可通过实现SuperID的协议方法获取。
+ *  @param uid 开发者应用中用户的Uid
  */
+- (void)queryCurrentUserAuthorizationStateWithUid:(NSString *)uid;
+
+
+
+
 + (void)clearCache;
 
 @end

@@ -1,3 +1,10 @@
+//
+//  SIDLocalizeable(简体中文)
+//  SuperIDSDK
+//  CommonVersion
+//  Created by XU JUNJIE on 24/9/15.
+//  Copyright (c) 2015 ISNC. All rights reserved.
+//
 "Superid_Tips_UidNull" = "uid不能为空";
 "Superid_Tips_TokenNull" = "app_token、access_token不能为空";
 "Superid_Tips_InfoNull" = "info为空";
@@ -9,7 +16,7 @@
 "Superid_Action_Back" = "返回";
 "Superid_Tips_PicNotExist" = "图片不存在";
 "Superid_Action_Clip" = "裁剪";
-"Superid_Title_Editinfo" = "填写个人信息";
+"Superid_Title_Editinfo" = "我的一登账号";
 "Superid_Action_TakeFromAlbum" = "从手机相册选择";
 "Superid_Action_TakePic" = "拍照";
 "Superid_Action_Cancel" = "取消";
@@ -43,7 +50,7 @@
 "Superid_Tips_AuthTips" = "访问您的注册信息：头像、昵称。";
 "Superid_Action_MakeSureAuth" = "确定登录";
 "Superid_Tips_NickName" = "昵称";
-"Superid_Action_Save" = "保存";
+"Superid_Action_Save" = "保存到一登";
 "Superid_Action_AgreeItem" = "我同意一登服务协议";
 "Superid_Tips_GuideError" = "您的人脸与此号码不匹配，请检查号码是否有误；如环境昏暗，刷脸时可双击屏幕开启加亮模式";
 "Superid_Action_ChangePhone" = "切换账号";
@@ -90,7 +97,7 @@
 "Superid_Aciton_NotReceivedEmail" = "没有收到邮件?";
 "Superid_Tips_SecureEmailFail" = "邮箱填写有误";
 "Superid_Tips_SecureEmailWarn" = "请您设置安全邮箱，提高账号安全级别";
-"Superid_Aciton_Submit" = "提交";
+"Superid_Aciton_Submit" = "绑定邮箱";
 "Superid_Aciton_ReSubmit" = "重新提交";
 "Superid_Tips_RequestFail" = "网络请求失败";
 "Superid_Tips_AccountHasBeenFrozen" = "当前帐号已被冻结";
@@ -116,3 +123,24 @@
 "Superid_Aciton_KeyboardBarSubmit" = "确定";
 
 "Superid_Aciton_KeyboardBarReturn" = "下一项";
+
+"Superid_Title_StrictVerify" = "验证手机";
+
+"Superid_Tips_StrictVerifyText" = "在新设备登录，需要验证手机";
+
+"Superid_Action_StrictVerifyAbandon" = "放弃";
+
+"Superid_Tips_StrictVerifyAbandonAlert" = "是否放弃验证，并退出";
+
+"Superid_Aciton_Yes" = "是";
+
+"Superid_Aciton_No" = "否";
+
+"Superid_Title_StrictVerify" = "验证手机";
+"Superid_Tips_StrictVerifyText" = "在新设备登录，需要验证手机";
+"Superid_Action_StrictVerifyAbandon" = "放弃";
+"Superid_Tips_StrictVerifyAbandonAlert" = "是否放弃验证，并退出";
+"Superid_Aciton_Yes" = "是";
+"Superid_Aciton_No" = "否";
+"Superid_Title_StrictVerifysuccess" = "验证成功";
+"Superid_Title_StrictVerifyfail" = "验证失败";
