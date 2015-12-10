@@ -1,9 +1,12 @@
 /*
  File.strings
  SuperIDsdk_Demo
- 
- Created by XU JUNJIE on 6/1/15.
- Copyright (c) 2015 ISNC. All rights reserved.
+
+SIDLocalizeable(繁体中文)
+SuperIDSDK
+CommonVersion
+Created by XU JUNJIE on 10/12/15.
+Copyright (c) 2015 ISNC. All rights reserved.
  */
 
 "Superid_Tips_UidNull" = "uid不能爲空";
@@ -62,13 +65,6 @@
 "Superid_Action_ReScan" = "重刷壹次";
 "Superid_Tips_GuideErthree" = "您已多次登入失敗，請留意當前的光線情況";
 "Superid_Action_ReBundleFace" = "重綁人臉";
-//
-//  SIDLocalizeable(繁体中文)
-//  SuperIDSDK
-//  CommonVersion
-//  Created by XU JUNJIE on 24/9/15.
-//  Copyright (c) 2015 ISNC. All rights reserved.
-//
 
 "Superid_Action_Exit" = "退出刷臉";
 "Superid_Title_Welcome" = "歡迎使用SuperID";
@@ -144,3 +140,7 @@
 "Superid_Aciton_No" = "否";
 "Superid_Title_StrictVerifysuccess" = "驗證成功";
 "Superid_Title_StrictVerifyfail" = "驗證失敗";
+
+"Superid_Tips_FaceVerifyFail" = "驗證失敗";
+"Superid_Tips_FaceVerifySuccess" = "驗證通過";
+"Superid_Title_FaceVerify" = "刷脸驗證";

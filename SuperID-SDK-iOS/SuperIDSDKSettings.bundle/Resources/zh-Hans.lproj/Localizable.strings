@@ -2,7 +2,7 @@
 //  SIDLocalizeable(简体中文)
 //  SuperIDSDK
 //  CommonVersion
-//  Created by XU JUNJIE on 24/9/15.
+//  Created by XU JUNJIE on 10/12/15.
 //  Copyright (c) 2015 ISNC. All rights reserved.
 //
 "Superid_Tips_UidNull" = "uid不能为空";
@@ -144,3 +144,7 @@
 "Superid_Aciton_No" = "否";
 "Superid_Title_StrictVerifysuccess" = "验证成功";
 "Superid_Title_StrictVerifyfail" = "验证失败";
+
+"Superid_Title_FaceVerify" = "刷脸验证";
+"Superid_Tips_FaceVerifySuccess" = "验证通过";
+"Superid_Tips_FaceVerifyFail" = "验证失败";

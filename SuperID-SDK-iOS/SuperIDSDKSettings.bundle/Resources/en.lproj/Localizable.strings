@@ -2,7 +2,7 @@
   File.strings
   SuperIDSDK
 
-  Created by XU JUNJIE on 4/1/15.
+  Created by XU JUNJIE on 10/12/15.
   Copyright (c) 2015 ISNC. All rights reserved.
 */
 
@@ -135,3 +135,6 @@
 "Superid_Aciton_No" = "No";
 "Superid_Title_StrictVerifysuccess" = "Success";
 "Superid_Title_StrictVerifyfail" = "Fail";
+"Superid_Tips_FaceVerifySuccess" = "Succeed";
+"Superid_Tips_FaceVerifyFail" = "Failed";
+"Superid_Title_FaceVerify" = "Verify Face";
