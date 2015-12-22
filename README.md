@@ -49,5 +49,5 @@ You can download iOS sample for SuperID SDK here:
 
 ##About us
 
-We are [ISNCer](http://superid.me/team/index.html)
+We are [ISNCer](http://superid.me/team.html)
 

@@ -78,7 +78,7 @@
  *
  *  @return 一登人脸验证VC的实例
  */
-- (instancetype)obtainFaceVerifyViewControllerWithRetryCount:(NSNumber *)count error:(NSError **)erro;
+- (instancetype)obtainFaceVerifyViewControllerWithRetryCount:(NSNumber *)count error:(NSError **)error;
 
 
 /**
