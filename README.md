@@ -1,10 +1,5 @@
 ## SuperID - A unique face openID
 
-
-[![Version](https://img.shields.io/cocoapods/v/SuperID.svg?style=flat)](http://cocoapods.org/pods/SuperID)
-[![License](https://img.shields.io/cocoapods/l/SuperID.svg?style=flat)](http://cocoapods.org/pods/SuperID)
-[![Platform](https://img.shields.io/cocoapods/p/SuperID.svg?style=flat)](http://cocoapods.org/pods/SuperID)
-
 SuperID SDK enables developers to integrate face-login function into their native apps easily. this new login approach can free users from remembering lots of passwords.Based on user’s authorization, SuperID SDK also can provide user’s face attributes data for developers’ applications. 
 
 
