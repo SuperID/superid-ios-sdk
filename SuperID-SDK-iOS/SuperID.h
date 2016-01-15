@@ -28,6 +28,12 @@
 + (SuperID *)sharedInstance;
 
 
+/**
+ *  SuperID的类方法，用于获取当前SDK的版本信息
+ */
++ (NSDictionary *)getSDKVersion;
+
+
 
 /**
  *  SuperID的实例方法，向SDK注册第三方应用。

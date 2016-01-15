@@ -5,7 +5,7 @@
 SIDLocalizeable(繁体中文)
 SuperIDSDK
 CommonVersion
-Created by XU JUNJIE on 10/12/15.
+Created by XU JUNJIE on 10/12/23.
 Copyright (c) 2015 ISNC. All rights reserved.
  */
 
@@ -20,7 +20,7 @@ Copyright (c) 2015 ISNC. All rights reserved.
 "Superid_Action_Back" = "返回";
 "Superid_Tips_PicNotExist" = "圖片不存在";
 "Superid_Action_Clip" = "裁剪";
-"Superid_Title_Editinfo" = "我的Superid賬號";
+"Superid_Title_Editinfo" = "我的賬號";
 "Superid_Action_TakeFromAlbum" = "從手機相冊選擇";
 "Superid_Action_TakePic" = "拍照";
 "Superid_Action_Cancel" = "取消";
@@ -29,9 +29,9 @@ Copyright (c) 2015 ISNC. All rights reserved.
 "Superid_Tips_NameNull" = "請先填寫昵稱";
 "Superid_Action_SendCode" = "發送驗證碼";
 "Superid_Tips_AppTokenNull" = "缺少參數app_token";
-"Superid_Title_Login" = "SuperID刷臉登入";
-"Superid_Title_Bundle" = "SuperID人臉綁定";
-"Superid_Title_FaceInfo" = "SuperID刷脸";
+"Superid_Title_Login" = "刷臉登入";
+"Superid_Title_Bundle" = "人臉綁定";
+"Superid_Title_FaceInfo" = "刷脸";
 "Superid_Tips_ActionNull" = "缺少參數action";
 "Superid_Tips_GetSuccess" = "獲取成功";
 "Superid_Tips_LoginSuccess" = "登入成功";
@@ -58,16 +58,16 @@ Copyright (c) 2015 ISNC. All rights reserved.
 "Superid_Tips_AuthTips" = "訪問您的注冊信息：頭像、昵稱。";
 "Superid_Action_MakeSureAuth" = "確定登入";
 "Superid_Tips_NickName" = "昵稱";
-"Superid_Action_Save" = "保存到Superid";
+"Superid_Action_Save" = "保存";
 "Superid_Action_AgreeItem" = "我同意SuperID服務協議";
-"Superid_Tips_GuideError" = "您的人臉與此號碼不匹配，請檢查號碼是否有誤；如環境昏暗，刷臉時可雙擊屏幕開啓加亮模式";
+"Superid_Tips_GuideError" = "登入失敗，請重新刷臉，雙擊屏幕開啓補光";
 "Superid_Action_ChangePhone" = "切換賬號";
 "Superid_Action_ReScan" = "重刷壹次";
-"Superid_Tips_GuideErthree" = "您已多次登入失敗，請留意當前的光線情況";
+"Superid_Tips_GuideErthree" = "您已多次登入失敗，請重新綁定人臉";
 "Superid_Action_ReBundleFace" = "重綁人臉";
 
 "Superid_Action_Exit" = "退出刷臉";
-"Superid_Title_Welcome" = "歡迎使用SuperID";
+"Superid_Title_Welcome" = "";
 "Superid_Tips_GuideStart" = "請您面對手機，保持正臉姿勢，點擊開始刷臉";
 "Superid_Action_StartScan" = "開始刷臉";
 "Superid_Tips_InputPhone" = "請輸入手機號碼";
@@ -76,8 +76,8 @@ Copyright (c) 2015 ISNC. All rights reserved.
 "Superid_Tips_NoLogin" = "尚未使用SuperID賬號登錄";
 "Superid_Tips_NoAuth" = "您尚未授權該應用，請先綁定授權";
 "Superid_Tips_AppTokenFail" = "獲取app_token失敗";
-"Superid_Tips_GuideLight" = "光線充⾜，您可以重新綁定⼈臉，並正常登入";
-"Superid_Tips_GuideDark" = "環境昏暗，建議您退出刷臉使⽤其他⽅式登入";
+"Superid_Tips_GuideLight" = "光線充⾜，讓人臉清晰可見";
+"Superid_Tips_GuideDark" = "保持穩定，讓臉部對準黃框";
 "Superid_Title_Country" = "國家和地區";
 "Superid_Tips_SaveSuccess" = "保存成功";
 "Superid_Tips_NoCamPermit_Title" = "無法啓動相機";
@@ -88,7 +88,7 @@ Copyright (c) 2015 ISNC. All rights reserved.
 "Superid_Tips_AvatarNull" = "請先設置頭像";
 "Superid_Tips_NoFace" = "請您面對屏幕，將臉對准黃框";
 
-"Superid_Tips_GuideLock" = "您當前帳號已被凍結，請在光線充足的環境下進行刷臉，申請解除凍結";
+"Superid_Tips_GuideLock" = "帳號已被凍結，請在光線充足的環境下進行刷臉，申請解除凍結";
 "Superid_Aciton_UnFreeze" = "解除凍結";
 "Superid_Tips_UnFreezeSubmit" = "提交成功";
 "Superid_Tips_Auditing" = "帳號正解除凍結，請稍候";
@@ -112,7 +112,7 @@ Copyright (c) 2015 ISNC. All rights reserved.
 "Superid_Tips_SecureEmailWarn" = "請您設置安全郵箱，提高安全級別";
 "Superid_Tips_NightMode" = "雙擊加亮";
 
-"Superid_Tips_GuideRegisterEr" = "登入失敗，請保持正臉姿勢重刷壹次";
+"Superid_Tips_GuideRegisterEr" = "登入失敗，請重新刷臉，雙擊屏幕開啓補光";
 
 "Superid_Tips_GuideRegisterBundle" = "您已兩次登入失敗，請在光亮的環境下，重新綁定人臉";
 
@@ -122,7 +122,7 @@ Copyright (c) 2015 ISNC. All rights reserved.
 
 "Superid_Tips_RebundleApplication" = "人臉已提交審核，請您留意短信通知";
 
-"Superid_Tips_Rebundling" = "人臉正在審核中，請您留意短信通知";
+"Superid_Tips_Rebundling" = "正在審核中，請您留意短信通知";
 
 "Superid_Tips_BundleMissingFace" = "無法識別當前人臉";
 
@@ -144,3 +144,5 @@ Copyright (c) 2015 ISNC. All rights reserved.
 "Superid_Tips_FaceVerifyFail" = "驗證失敗";
 "Superid_Tips_FaceVerifySuccess" = "驗證通過";
 "Superid_Title_FaceVerify" = "刷脸驗證";
+
+"Superid_Title_National" = "國家/地區";

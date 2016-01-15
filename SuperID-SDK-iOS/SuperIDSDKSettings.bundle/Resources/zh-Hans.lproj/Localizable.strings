@@ -2,7 +2,7 @@
 //  SIDLocalizeable(简体中文)
 //  SuperIDSDK
 //  CommonVersion
-//  Created by XU JUNJIE on 10/12/15.
+//  Created by XU JUNJIE on 10/12/23.
 //  Copyright (c) 2015 ISNC. All rights reserved.
 //
 "Superid_Tips_UidNull" = "uid不能为空";
@@ -16,7 +16,7 @@
 "Superid_Action_Back" = "返回";
 "Superid_Tips_PicNotExist" = "图片不存在";
 "Superid_Action_Clip" = "裁剪";
-"Superid_Title_Editinfo" = "我的一登账号";
+"Superid_Title_Editinfo" = "我的账号";
 "Superid_Action_TakeFromAlbum" = "从手机相册选择";
 "Superid_Action_TakePic" = "拍照";
 "Superid_Action_Cancel" = "取消";
@@ -24,9 +24,9 @@
 "Superid_Tips_NameNull" = "请先填写昵称";
 "Superid_Action_SendCode" = "发送验证码";
 "Superid_Tips_AppTokenNull" = "缺少参数app_token";
-"Superid_Title_Login" = "一登刷脸登录";
-"Superid_Title_Bundle" = "一登人脸绑定";
-"Superid_Title_FaceInfo" = "一登刷脸";
+"Superid_Title_Login" = "刷脸登录";
+"Superid_Title_Bundle" = "人脸绑定";
+"Superid_Title_FaceInfo" = "刷脸";
 "Superid_Tips_ActionNull" = "缺少参数action";
 "Superid_Tips_GetSuccess" = "获取成功";
 "Superid_Tips_LoginSuccess" = "登录成功";
@@ -50,15 +50,15 @@
 "Superid_Tips_AuthTips" = "访问您的注册信息：头像、昵称。";
 "Superid_Action_MakeSureAuth" = "确定登录";
 "Superid_Tips_NickName" = "昵称";
-"Superid_Action_Save" = "保存到一登";
+"Superid_Action_Save" = "保存";
 "Superid_Action_AgreeItem" = "我同意一登服务协议";
-"Superid_Tips_GuideError" = "您的人脸与此号码不匹配，请检查号码是否有误；如环境昏暗，刷脸时可双击屏幕开启加亮模式";
+"Superid_Tips_GuideError" = "登录失败，请重新刷脸，双击屏幕补光";
 "Superid_Action_ChangePhone" = "切换账号";
 "Superid_Action_ReScan" = "重刷一次";
-"Superid_Tips_GuideErthree" = "您已多次登录失败，请留意当前的光线情况";
+"Superid_Tips_GuideErthree" = "您已多次登录失败，请重新绑定人脸";
 "Superid_Action_ReBundleFace" = "重绑人脸";
 "Superid_Action_Exit" = "退出刷脸";
-"Superid_Title_Welcome" = "欢迎使用一登";
+"Superid_Title_Welcome" = "";
 "Superid_Tips_GuideStart" = "请您面对手机，保持正脸姿势，点击开始刷脸";
 "Superid_Action_StartScan" = "开始刷脸";
 "Superid_Tips_InputPhone" = "请输入手机号码";
@@ -67,8 +67,8 @@
 "Superid_Tips_NoLogin" = "尚未使用一登账号登录";
 "Superid_Tips_NoAuth" = "您尚未授权该应用，请先绑定授权";
 "Superid_Tips_AppTokenFail" = "获取app_token失败";
-"Superid_Tips_GuideLight" = "光线充⾜，您可以重新绑定⼈脸，并正常登录";
-"Superid_Tips_GuideDark" = "环境昏暗，建议您退出刷脸，使⽤其他⽅式登录";
+"Superid_Tips_GuideLight" = "光线充⾜，让人脸清晰可见";
+"Superid_Tips_GuideDark" = "保持稳定，让脸部对准黄框";
 "Superid_Title_Country" = "国家和地区";
 "Superid_Tips_SaveSuccess" = "保存成功";
 "Superid_Tips_RequestCodeFail" = "验证码请求失败";
@@ -81,7 +81,7 @@
 "Superid_Tips_NoFace" = "请您面对屏幕，将脸对准黄框";
 
 
-"Superid_Tips_GuideLock" = "您当前帐号已被冻结，请在光线充足的环境下进行刷脸，申请解除冻结";
+"Superid_Tips_GuideLock" = "帐号已被冻结，请在光线充足的环境下进行刷脸，申请解除冻结";
 "Superid_Aciton_UnFreeze" = "解除冻结";
 "Superid_Tips_UnFreezeSubmit" = "提交成功";
 "Superid_Tips_Auditing" = "帐号正解除冻结，请稍候";
@@ -104,7 +104,7 @@
 "Superid_Tips_SecureEmailTextTips" = "安全邮箱设置后不能修改";
 "Superid_Tips_NightMode" = "双击加亮";
 
-"Superid_Tips_GuideRegisterEr" = "登录失败，请保持正脸姿势重刷一次";
+"Superid_Tips_GuideRegisterEr" = "登录失败，请重新刷脸，双击屏幕补光";
 
 "Superid_Tips_GuideRegisterBundle" = "您已两次登录失败，请在光亮的环境下，重新绑定人脸";
 
@@ -114,7 +114,7 @@
 
 "Superid_Tips_RebundleApplication" = "人脸已提交审核，请您留意短信通知";
 
-"Superid_Tips_Rebundling" = "人脸正在审核中，请您留意短信通知";
+"Superid_Tips_Rebundling" = "正在审核中，请您留意短信通知";
 
 "Superid_Tips_BundleMissingFace" = "无法识别当前人脸";
 
@@ -148,3 +148,5 @@
 "Superid_Title_FaceVerify" = "刷脸验证";
 "Superid_Tips_FaceVerifySuccess" = "验证通过";
 "Superid_Tips_FaceVerifyFail" = "验证失败";
+
+"Superid_Title_National" = "国家/地区";

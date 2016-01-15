@@ -2,7 +2,7 @@
   File.strings
   SuperIDSDK
 
-  Created by XU JUNJIE on 10/12/15.
+  Created by XU JUNJIE on 10/12/23.
   Copyright (c) 2015 ISNC. All rights reserved.
 */
 
@@ -17,7 +17,7 @@
 "Superid_Action_Back" = "Back";
 "Superid_Tips_PicNotExist" = "Picture not existed";
 "Superid_Action_Clip" = "cropped";
-"Superid_Title_Editinfo" = "My Superid";
+"Superid_Title_Editinfo" = "My account";
 "Superid_Action_TakeFromAlbum" = "Photo Library";
 "Superid_Action_TakePic" = "From Camera";
 "Superid_Action_Cancel" = "Cancel";
@@ -56,13 +56,13 @@
 "Superid_Tips_NickName" = "Name";
 "Superid_Action_Save" = "Submit";
 "Superid_Action_AgreeItem" = "I agree the privacy policy";
-"Superid_Tips_GuideError" = "Fail to login. Make sure the above number is your SuperID. if dark condition, double tap to open the highlight mode when scanning face.";
+"Superid_Tips_GuideError" = "Login failed, Retry again. if dark condition, double tap to open the highlight mode .";
 "Superid_Action_ChangePhone" = "Change account";
 "Superid_Action_ReScan" = "Retry";
-"Superid_Tips_GuideErthree" = "You have failed to login over 3 times, for proper acquisition, you should always enroll in the best lighting conditions";
+"Superid_Tips_GuideErthree" = "Repeated login failures,please rebinding your face";
 "Superid_Action_ReBundleFace" = "Record again";
 "Superid_Action_Exit" = "Cancel";
-"Superid_Title_Welcome" = "Welcome to use SuperID";
+"Superid_Title_Welcome" = "";
 "Superid_Tips_GuideStart" = "Please look at the front camera on the mobile device, click the Start button";
 "Superid_Action_StartScan" = "Start";
 "Superid_Tips_InputPhone" = "Your mobile number";
@@ -71,8 +71,8 @@
 "Superid_Tips_NoLogin" = "Please login with SuperID";
 "Superid_Tips_NoAuth" = "Please link your SuperID first";
 "Superid_Tips_AppTokenFail" = "App token fail";
-"Superid_Tips_GuideLight" = "Bright condition？Record your face again";
-"Superid_Tips_GuideDark" = "Dark condition？Adjust your surrounding or logout";
+"Superid_Tips_GuideLight" = "Let light be sufficient to making your face clearly.";
+"Superid_Tips_GuideDark" = "Keep steady and align your face to the yellow frame.";
 "Superid_Title_Country" = "Countries and Regions";
 "Superid_Tips_SaveSuccess" = "Succeed";
 "Superid_Tips_RequestCodeFail" = "Request SMS code fail";
@@ -116,7 +116,7 @@
 "Superid_Tips_GuideRegisterEr" = "Login failed, please keep positive face pose and try again.";
 "Superid_Tips_GuideRegisterBundle" = "You have failed to login over 2 times. you can try to record your face again  in bright lighting conditions.";
 "Superid_Tips_FaceRebundleFreeze"="Current account has been blocked. You cannot operate.";
-"Superid_Tips_FaceRebundleEr"="Submit failed. Please logout SuperID and retry";
+"Superid_Tips_FaceRebundleEr"="Submit failed. Please logout and retry";
 "Superid_Tips_RebundleApplication" = "Your application has submitted.we will inform you by SMS later.";
 "Superid_Tips_Rebundling" = "Your application is under reviewing, we will inform you by SMS later.";
 
@@ -127,7 +127,7 @@
 
 "Superid_Aciton_KeyboardBarReturn" = "Next";
 
-"Superid_Title_StrictVerify" = "Superid";
+"Superid_Title_StrictVerify" = "Verification";
 "Superid_Tips_StrictVerifyText" = "Please verify your phone number in new device";
 "Superid_Action_StrictVerifyAbandon" = "Quit";
 "Superid_Tips_StrictVerifyAbandonAlert" = "Give up the operation and quit?";
@@ -138,3 +138,4 @@
 "Superid_Tips_FaceVerifySuccess" = "Succeed";
 "Superid_Tips_FaceVerifyFail" = "Failed";
 "Superid_Title_FaceVerify" = "Verify Face";
+"Superid_Title_National" = "National";
