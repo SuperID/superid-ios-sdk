@@ -15,7 +15,7 @@ SuperID SDK enables developers to integrate face-login function into their nativ
 1. Register as a SuperID developer at our website: [SuperID.me](http://superid.me)
 2. Download the SDK for iOS or via Cocoapods by adding the 'SuperID' pods.
 3. Creat a SuperID App in our Super Deveoper Center website: [Deveoper Center](https://center.superid.me/developer/login/).
-4. Check-out the tutorials available online at: [Getting Started](http://superid.me/document/ios_quickstart.html).
+4. Check-out the tutorials available online at: [Getting Started](http://superid.me/developer/developer.html).
 6. Start coding! Visit [SuperID Doc](http://superid.me/document/ios_quickstart.html) for tutorials and reference documentation.
 
 **NOTE**: The SuperID iOS SDK only supports iOS 7 or higher. 
@@ -31,7 +31,7 @@ pod "SuperID"
 ##Features
 
 * Login - http://superid.me/document/ios_quickstart.html
-* Face Attributes - http://superid.me/document/ios_advanced.html
+* Face Attributes - http://superid.me/developer/document/ios_advanced.html
 
 ##Samples
 You can download iOS sample for SuperID SDK here:
