@@ -1,6 +1,6 @@
 {
   "name": "SuperID",
-  "version": "1.6.2",
+  "version": "1.6.4",
   "license": {
     "type": "Copyright",
     "text": "LICENSE Copyright 2015 superid.me, Inc. All rights reserved."
@@ -10,7 +10,7 @@
   "authors": "SuperID",
   "source": {
   	"git" : "https://github.com/SuperID/superid-ios-sdk.git",
-  	"tag": "1.6.2"
+  	"tag": "1.6.4"
   },
   "platforms": {
     "ios": "7.0"
