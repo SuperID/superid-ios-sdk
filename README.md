@@ -30,7 +30,7 @@ pod "SuperID"
 
 ##Features
 
-* Login - http://superid.me/document/ios_quickstart.html
+* Login - http://superid.me/developer/document/ios_quickstart.html
 * Face Attributes - http://superid.me/developer/document/ios_advanced.html
 
 ##Samples
@@ -49,5 +49,5 @@ You can download iOS sample for SuperID SDK here:
 
 ##About us
 
-We are [ISNCer](superid.me/team.html)
+We are [ISNCer](http://superid.me/team.html)
 
