@@ -138,4 +138,6 @@
 "Superid_Tips_FaceVerifySuccess" = "Succeed";
 "Superid_Tips_FaceVerifyFail" = "Failed";
 "Superid_Title_FaceVerify" = "Verify Face";
-"Superid_Title_National" = "National";
+"Superid_Title_National" = "Nation";
+"Superid_Need_Hack_Detect" = "Invalid source";
+"Superid_Tips_Nickname_Origin" = "The nickname is created from the device name.";

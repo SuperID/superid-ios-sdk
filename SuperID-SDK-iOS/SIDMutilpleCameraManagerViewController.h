@@ -7,23 +7,9 @@
 //
 
 
-/**
- *  设置开启优选设备摄像头
- */
-typedef NS_ENUM(NSInteger, SIDPreferCameraDevicePosition) {
-    /**
-     *  后置摄像头
-     */
-    SIDPreferCameraDeviceBack = 1,
-    /**
-     *  前置摄像头
-     */
-    SIDPreferCameraDeviceFront,
-};
-
 @import UIKit;
 #import "SIDCameraPreviewView.h"
-
+#import "SIDImageFilterCommon.h"
 
 @protocol SIDMutipleCameraManagerProtocol <NSObject>
 
@@ -38,6 +24,14 @@ typedef NS_ENUM(NSInteger, SIDPreferCameraDevicePosition) {
 
 
 /**
+ *  输入图像无法通过活体检测回调方法
+ *
+ *  当输入源为图像或者视频时，将通过该回调方法通知三方，1比N结果不在回调，三方可作为统一失败处理，可以要求用户重新刷脸
+ *
+ */
+- (void)userCannotPassLivenessDetect;
+
+/**
  *  摄像头成功捕获人脸，开始进行人脸检索
  */
 - (void)hasGetTheUserFace;
@@ -45,6 +39,10 @@ typedef NS_ENUM(NSInteger, SIDPreferCameraDevicePosition) {
 @end
 
 @interface SIDMutilpleCameraManagerViewController : UIViewController
+
+
+
+
 
 /**
  *  初始化摄像头配置以及人脸检测配置，该方法在ViewDidLoad中执行

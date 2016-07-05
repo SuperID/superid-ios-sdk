@@ -85,17 +85,19 @@ typedef NS_ENUM(NSInteger, SIDUserAuthorizationState){
 };
 
 
-typedef NS_ENUM(NSInteger, SIDFACEVerifyState){
-    
+
+/**
+ *  用户人脸验证回调状态
+ */
+typedef NS_ENUM(NSInteger, SIDFACEVerifyState) {
     /**
-     *  用户刷脸验证成功
+     *  人脸验证成功
      */
     SIDFaceVerifySucceed,
     /**
-     *  用户刷脸验证失败
+     *  人脸验证失败
      */
     SIDFaceVerifyFail,
-
 };
 
 
@@ -113,19 +115,11 @@ typedef NS_ENUM(NSInteger, SIDFACEVerifyState){
  *  应用用户使用SuperID登录应用操作完成调用的协议方法，开发者可通过继承该协议方法获取用户信息。
  *
  *  @param userInfo 当前一登用户的账户信息
- *  @param uid      与一登账号绑定的用户Uid，如三方开发者未更新Uid或绑定时传入，默认为随机Uid
+ *  @param openId   针对当前应用中，用户的openId
  *  @param error    登录成功为nil，登录失败不为nil。开发者可根据该错误信息描述进行对应处理，详见开发者文档和Demo
  */
 - (void)superID:(SuperID *)sender userDidFinishLoginWithUserInfo:(NSDictionary *)userInfo withOpenId:(NSString *)openId error:(NSError *)error;
 
-/**
- *  应用用户使用SuperID授权应用操作完成的协议方法
- *
- *  @param userInfo 当前一登用户的账户信息
- *  @param uid      与一登账号绑定的用户Uid
- *  @param error    授权成功为nil，授权失败不为nil。开发者可根据该错误信息描述进行对应处理，详见开发者文档和Demo
- */
-- (void)superID:(SuperID *)sender userDidFinishAuthAppWithUserInfo:(NSDictionary *)userInfo withAppUid:(NSString *)uid error:(NSError *)error;
 
 
 
@@ -156,13 +150,6 @@ typedef NS_ENUM(NSInteger, SIDFACEVerifyState){
 - (void)superID:(SuperID *)sender queryCurrentUserAuthorizationStateResponse:(SIDUserAuthorizationState)state;
 
 
-/**
- *  更新用户账户信息到一登账号的协议方法
- *  具体状态的处理可参考Demo
- *  @param state SIDUserUpdateResponseState类型参数，用户状态定位
- */
-- (void)superID:(SuperID *)sender updateAppUserInfoStateResponse:(SIDUserUpdateResponseState)state;
-
 
 /**
  *  用户验证结果回调
@@ -172,13 +159,6 @@ typedef NS_ENUM(NSInteger, SIDFACEVerifyState){
 - (void)superID:(SuperID *)sender faceVerifyResponse:(SIDFACEVerifyState)state;
 
 
-
-/**
- *  更新用户Uid到一登账号的协议方法
- *
- *  @param state SIDUserUpdateResponseState类型参数，用户状态定位
- */
-- (void)superID:(SuperID *)sender updateAppUidResponse:(SIDUserUpdateResponseState)state;
 
 
 

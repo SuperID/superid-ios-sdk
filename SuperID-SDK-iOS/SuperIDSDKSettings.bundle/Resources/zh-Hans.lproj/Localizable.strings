@@ -150,3 +150,5 @@
 "Superid_Tips_FaceVerifyFail" = "验证失败";
 
 "Superid_Title_National" = "国家/地区";
+"Superid_Need_Hack_Detect" = "请本人刷脸";
+"Superid_Tips_Nickname_Origin" = "初始昵称来源于设备名字，可以进行修改";
