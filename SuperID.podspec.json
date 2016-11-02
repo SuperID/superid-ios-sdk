@@ -32,6 +32,8 @@
   "libraries": ["c++", "SuperIDSDK"],
   "xcconfig": {
   	"OTHER_LDFLAGS": "$(inherited) -ObjC -all_load",
-  	"LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/SuperID/SuperID-SDK-iOS\""
+  	"LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/SuperID/SuperID-SDK-iOS\"",
+    "ENABLE_BITCODE" : "NO"
   }
+
 }

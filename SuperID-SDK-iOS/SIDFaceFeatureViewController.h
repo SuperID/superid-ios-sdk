@@ -8,42 +8,34 @@
 
 
 #import <UIKit/UIKit.h>
+#import "SIDCameraManagerViewController.h"
 
 /**
  开发者通过继承SIDFaceFeatureViewController类进行深度整合
  */
-@interface SIDFaceFeatureViewController : UIViewController
+@interface SIDFaceFeatureViewController : SIDCameraManagerViewController
 
 /**
- *  初始人脸信息VC,在元类的ViewDidLoad方法中调用
+ *  初始化摄像头配置以及人脸检测配置，该方法在ViewDidLoad中执行
  *
- *  @param duration 单次识别人脸信息的持续时长
- *  @param width    获取摄像头实时视频流视窗的宽度（不大于480）
- *  @param hight    获取摄像头实时视频流视窗的高度（不大于640）
- *
- *  @return 初始化成功返回YES,失败返回NO
+ *  @param previewView 摄像头的preview指针
  */
-- (BOOL)configureFaceFeatureViewWithDuration:(float)duration withFrameWidth:(float)width high:(float)high;
-
+- (void)setupFaceFeatureManagerWithPreview:(SIDCameraPreviewView *)previewView;
 
 /**
  *  启动人脸信息识别
  */
 - (void)startDetectFaceFeature;
 
-- (void)startDetectAdvancedFaceFeature;
-
 /**
  *  结束人脸信息识别
  */
 - (void)stopDetectFaceFeature;
 
-
 /**
  *  当摄像头成功检测到可用人脸时，通过该方法通知
  */
 - (void)didFinishDetectFace;
-
 
 /**
  *  成功完成人脸信息识别后，调用该方法通知
@@ -52,20 +44,11 @@
  */
 - (void)getFaceFeatureSucceedWithFeatureInfo:(NSDictionary *) featureInfo;
 
-
 /**
  *  人脸信息识别失败，调用该方法通知
  *
  *  @param error  开发者可根据错误信息描述进行相应处理，详见Demo或开发者文档
  */
 - (void)getFaceFeatureFail:(NSError *)error;
-
-
-/**
- *  获取当前的摄像头视频Layer
- *
- *  @return AVCaptureVideoPreviewLayer
- */
-- (id)getCurrentPreviewLayer;
 
 @end
