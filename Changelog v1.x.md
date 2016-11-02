@@ -2,6 +2,16 @@
 
 > 更新时请务必替换SDK所有的资源文件，特别资源文件bundle。
 
+
+###V1.9.9  20161102
+- SDK全方位支持横竖屏
+- 刷脸登录,刷脸验证,获取人脸信息三个功能集中在类 SIDCoreLoginKit 中,采用 block 回调,使用更加简洁
+- 刷脸登录接口增加了用户信息 model 类 SIDAppUserInfoModel
+- 1: N 人脸检索模块,类名更改为 SIDSearchFaceProtocol
+- 刷量登录流程优化,增加检测 app token ,无则请求 app token
+- 内部模块逻辑优化
+
+
 ###V1.7.8  20160705
 
 - 修复了大量UI问题，现在SDK支持iPad的竖屏版本
